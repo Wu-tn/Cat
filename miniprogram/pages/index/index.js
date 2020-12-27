@@ -88,7 +88,7 @@ data: {
    copyTBL: function (e) {
      var self = this;
      wx.setClipboardData({
-       data: '北大猫协',//需要复制的内容
+       data: '华师猫协',//需要复制的内容
        success: function (res) {
          // self.setData({copyTip:true}),
 

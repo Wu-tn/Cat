@@ -1,6 +1,9 @@
 Page({
 data: { 
  catlist: [
+   {name:"杰尼龟"},
+   {name:"牛油果"},
+   {name:"牛奶"},
 
     ],
     screenWidth: 0,

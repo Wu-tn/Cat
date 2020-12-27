@@ -1,7 +1,13 @@
 Page({
 data: { 
  catlist: [
-{ name:"小黄鸭"},{ name:"英杰"},{ name:"一帆"},{ name:"薏米"},
+   {name:"杰尼龟"},
+   {name:"狐狸"},
+   {name:"木偶"},
+   {name:"牛奶"},
+   {name:"瓦斯"},
+   {name:"牛油果"},
+
     ],
     screenWidth: 0,
     screenHeight: 0,

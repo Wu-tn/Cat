@@ -1,6 +1,6 @@
 <!--index.wxml-->
 
-<image  class = 'avator ' src="/pages/images/huihui_circle.png" mode='aspectFill' ></image>
+<image  class = 'avator ' src="/pages/images/search.jpg" mode='aspectFill' ></image>
 <view class="search">
 <input placeholder="请输入猫咪名称" bindconfirm="bindconfirmT" placeholder-class="placeholder" />
 </view>
@@ -65,7 +65,7 @@
 
 <navigator url="/pages/index/所有/所有" >
   <view class="catitem">
-    <image  class = 'avator ' src="/pages/images/huihui_circle.png" mode='aspectFill' ></image>
+    <image  class = 'avator ' src="/pages/images/all.png" mode='aspectFill' ></image>
     <view class= "cat-name">所有</view>
   </view>
 </navigator>
@@ -110,7 +110,6 @@
 </view>
 
 <!-- 休学 -->
-
 <view hidden="{{currentTab!==2}}">
     <block wx:for="{{unknown_catlist}}">
   <navigator url="/pages/cats/{{item.name}}/{{item.name}}" >
@@ -124,7 +123,6 @@
   
 </block>
 </view>
-
 <!-- 喵星 -->
 
 <view hidden="{{currentTab!==3}}">

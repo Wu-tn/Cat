@@ -1,7 +1,7 @@
 Page({
 data: { 
  catlist: [
-{ name:"薏米"},
+{ name:"木偶"},
     ],
     screenWidth: 0,
     screenHeight: 0,

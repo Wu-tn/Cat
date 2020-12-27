@@ -1,0 +1,17 @@
+<!--pages/疫苗/杰希/杰希.wxml-->
+<view style="display:flex; justify-content:center; align-items:center;">
+  <image mode="widthFix" class="cat_image" src="../../images/{{catname}}.jpg" style= "width: 90%;">
+  </image>
+</view>
+<view class = "itemname1">
+<view wx:for = "{{VaccineItems}}">
+  <view style='flex-shrink:0; box-sizing:border-box; width:350rpx;'>
+    {{item.category}}
+  </view>
+  <view class = "itemname2">{{item.content}}</view>
+  <view style='flex-shrink:0; box-sizing:border-box; width:350rpx;'>
+    {{item.category}}
+  </view>
+  <view class = "itemname2">{{item.content}}</view>
+</view>
+</view>

@@ -1,7 +1,6 @@
 Page({
 data: { 
  catlist: [
-{ name:"英杰"},{ name:"一帆"},
     ],
     screenWidth: 0,
     screenHeight: 0,
