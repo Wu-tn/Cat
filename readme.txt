@@ -1,2 +1,1 @@
-Git is a version control system.
-Git is free software.
+This is a wxapp for cat information  management
